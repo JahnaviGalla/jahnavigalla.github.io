@@ -55,7 +55,12 @@
         height: 40vh;
     }
     #profile{
-        height:83vh;
+        height:80vh;
+        margin-bottom: 100%;
+    }
+
+    #about{
+        height:220vh;
         margin-bottom: 0;
     }
     article{
@@ -70,6 +75,8 @@
     .btn-container {
         flex-wrap: wrap;
     }
+
+
     .contact-info-container p,
     .nav-links li a {
         font-size: 1rem;
@@ -87,25 +94,48 @@
     }
     .section__pic-container{
         width: auto;
-        height: 46vw;
         justify-content: center;
+    }
+
+    .section__text{
+        padding-top: 0%;
     }
     .section__text__p2{
         font-size: 1.25rem;
     }
-
+    
     .title{
         font-size: 2rem;
     }
+
     .text-container{
         text-align: justify;
     }
 
-    .timeline-container{
-        padding:2px 50px;
+    .timeline {
         position: relative;
-        width: 35%;
+        left: 20px;
+        max-width: 800px;
+        margin: 50px auto;
     }
+
+    .timeline-container{
+        padding:2px 55px;
+        position: relative;
+        width: 40%;
+    }
+    .left-container{
+      left: -55px;
+    }
+
+    .left-container-arrow{
+        right: -14.282px;
+    }
+    
+    .right-container{
+        left: 120px;
+      }
+  
     
     .timeline-box{
         padding: 5px 3px;
@@ -114,6 +144,6 @@
     }
 
     .timeline-container img{
-        right:-15px;
+        right:-1px;
     }
 }
