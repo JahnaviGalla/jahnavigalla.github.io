@@ -473,12 +473,12 @@ font-weight: 600;
 }
 
 .edu-icon{
-    height: 5.0rem;
+    height: 3.5rem;
 }
 
 .exp-icon{
-    height: 5.0rem;
-    width: 3.7rem;
+    height: 3.5rem;
+    width: 2.7rem;
 }
 
 
@@ -611,13 +611,13 @@ left: -14.5px;
     text-align: initial;
     flex-wrap: wrap;
     flex-direction: row;
-    gap: 2.5rem;
+    gap: 1.2rem;
     justify-content: space-around;
 }
 
 article{
     display:flex;
-    width: 10rem;
+    width: 7rem;
     justify-content: flex-start;
     gap:0.5rem;
 }
